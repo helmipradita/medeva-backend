@@ -5,3 +5,4 @@ package-lock.json
 query.sql
 /tests
 /.github/workflows
+ecosystem.config.js
