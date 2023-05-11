@@ -30,5 +30,6 @@ jobs:
           cd /var/www/app/medeva-backend
           git pull origin main
           git status
+          npm install
           pm2 restart 0
           
