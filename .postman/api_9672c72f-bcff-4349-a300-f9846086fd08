@@ -9,7 +9,6 @@ id = 9672c72f-bcff-4349-a300-f9846086fd08
 
 [config.relations.collections]
 rootDirectory = postman/collections
-files[] = {"id":"26506164-dc3a1666-6a6d-401b-a111-3c215ad072c8","path":"Backend Collection.json","metaData":{}}
 files[] = {"id":"26506164-8bc445b6-af4a-4703-b5bf-691a2beb6c93","path":"medeva-backend [ FIX ].json","metaData":{}}
 
 [config.relations.collections.metaData]
