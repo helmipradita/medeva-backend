@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Set Environment') {
+            steps {
+                sh 'nvm use lts/hydrogen' // Pastikan menggunakan versi Node.js yang diinginkan
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                sh 'npm install'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                sh 'npm run build'
+            }
+        }
+    }
+}
